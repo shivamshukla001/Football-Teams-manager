@@ -1,0 +1,100 @@
+/* General Styling */
+.blog-page {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Dynamic gradient */
+    color: white;
+    padding: 30px;
+    min-height: 100vh;
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .blog-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blog-header p {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+  }
+  
+  /* Blog Grid */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Blog Card */
+  .blog-card {
+    background: rgba(255, 255, 255, 0.1); /* Translucent card */
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Blog Image */
+  .blog-image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures full image visibility */
+  }
+  
+  /* Blog Content */
+  .blog-content {
+    padding: 20px;
+  }
+  
+  .blog-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #ecf0f1;
+  }
+  
+  .blog-meta {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #bdc3c7;
+  }
+  
+  .blog-excerpt {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #dcdde1;
+  }
+  
+  /* Read More Button */
+  .read-more-btn {
+    background-color: #1abc9c;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #16a085;
+  }
+  

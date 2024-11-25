@@ -1,0 +1,79 @@
+.stats-comparison-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #b1aeca;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stats-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .stats-container h1 {
+    color: #22177A;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-chart {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .players-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .player-info {
+    background-color: #605EA1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-info h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .player-details p {
+    color: white;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .player-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .players-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .player-info {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
