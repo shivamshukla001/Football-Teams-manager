@@ -4,7 +4,8 @@ import HomePage from "./components/HomePage";
 import PlayerList from "./components/PlayerList";
 import BlogList from "./components/BlogSection"; // Adjust path if necessary
 import BlogPostDetails from "./components/BlogPostDetail";
-import TeamOverview from "./components/TeamOverview";
+import MatchHighlights from "./components/MatchHighlights";
+
 import StatsComparisonPage from "./components/StatsComparisonPage";
 
 import PlayerProfile from "./components/PlayerProfile"; // Import PlayerProfile component
@@ -33,7 +34,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* HomePage route */}
         <Route path="/players" element={<PlayerList />} />
-        <Route path="/team-overview" element={<TeamOverview />} />
+        <Route path="/highlights" element={<MatchHighlights />} />
         <Route path="/analytics" element={<PlayerAnalytics />} />
         <Route path="/blogs" element={<BlogList />} />
         <Route path="/blogs/:id" element={<BlogPostDetails />} />
